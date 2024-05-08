@@ -1,0 +1,1 @@
+import{_ as e,c as o,o as t,a as s}from"./index-Deaq7EW7.js";const c={},_={class:"about"},a=s("h4",null,"TBD",-1),n=[a];function r(d,i){return t(),o("div",_,n)}const f=e(c,[["render",r]]);export{f as default};
