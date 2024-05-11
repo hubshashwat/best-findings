@@ -6,7 +6,7 @@
 <template v-if="jsonData">
   <div class="about">
     <br><br>
-    <u><b><i>Laptops under your budget:</i></b></u>
+    <u><b><i>Recommended Laptops:</i></b></u>
     <br>
     <br>
     <div v-for="(section, key) in jsonData.laptops_with_prices" :key="key">

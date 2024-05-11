@@ -11,8 +11,8 @@ import HelloWorld from './components/HelloWorld.vue'
       <HelloWorld msg="स्वागत है :)" />
 
       <nav>
-        <RouterLink to="/">Compare Phone Features</RouterLink>
-        <RouterLink to="/phoneprices">Compare Phone Prices</RouterLink>
+        <RouterLink to="/">Compare Phone Prices</RouterLink>
+        <!-- <RouterLink to="/phoneprices">Compare Phone Prices</RouterLink> -->
         <RouterLink to="/laptopprices">Compare Laptop Prices</RouterLink>
         <RouterLink to="/btspeakerprices">Compare BT-Speaker Prices (Portable)</RouterLink>
         <RouterLink to="/headphoneprices">Compare HeadPhone Prices</RouterLink>

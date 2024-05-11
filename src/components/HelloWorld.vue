@@ -11,8 +11,8 @@ defineProps({
   <div class="greetings">
     <h1 class="green">{{ msg }}</h1>
     <h3>
-      Discover the perfect stuff for you –  
-      explore our curated lists, comparing phones, cameras, and much more to find the ideal device to suit your needs
+      Discover the perfect stuff for you – explore our curated lists, smartphones, 
+      laptops, and much more to find the ideal device to suit your needs
     </h3>
   </div>
 </template>

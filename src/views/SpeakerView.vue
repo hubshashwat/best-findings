@@ -6,7 +6,7 @@
 <template v-if="jsonData">
   <div class="about">
     <br><br>
-    <u><b><i>BT Speakers under your budget:</i></b></u>
+    <u><b><i>Recommended BT Speakers:</i></b></u>
     <br>
     <br>
     <div v-for="(section, key) in jsonData.portable_bluetooth_speakers_with_prices" :key="key">
