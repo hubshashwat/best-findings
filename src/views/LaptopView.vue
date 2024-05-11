@@ -6,14 +6,14 @@
 <template v-if="jsonData">
   <div class="about">
     <br><br>
-    <u><b><i>Phones under your budget:</i></b></u>
+    <u><b><i>Laptops under your budget:</i></b></u>
     <br>
     <br>
-    <div v-for="(section, key) in jsonData.phones_with_prices" :key="key">
+    <div v-for="(section, key) in jsonData.laptops_with_prices" :key="key">
       {{ section.detailed_heading }}
       <ul>
         <li v-for="model in section.models" :key="model.name">
-          <a :href="model.link" target="_blank">{{ model.name }}</a> 
+          <a :href="model.link" target="_blank">{{ model.name }} [{{model.model }}]</a> 
           <span v-if="model.speciality"> - {{ model.speciality.join(', ') }}</span>
         </li> 
  </ul> 

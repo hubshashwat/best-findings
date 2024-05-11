@@ -6,10 +6,10 @@
 <template v-if="jsonData">
   <div class="about">
     <br><br>
-    <u><b><i>Phones under your budget:</i></b></u>
+    <u><b><i>BT Speakers under your budget:</i></b></u>
     <br>
     <br>
-    <div v-for="(section, key) in jsonData.phones_with_prices" :key="key">
+    <div v-for="(section, key) in jsonData.portable_bluetooth_speakers_with_prices" :key="key">
       {{ section.detailed_heading }}
       <ul>
         <li v-for="model in section.models" :key="model.name">
