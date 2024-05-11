@@ -17,7 +17,7 @@
           <span v-if="model.speciality"> - {{ model.speciality.join(', ') }}</span>
         </li> 
  </ul> 
-
+    <br>
     </div>
   </div>
 </template>
