@@ -12,7 +12,7 @@ import HelloWorld from './components/HelloWorld.vue'
 
       <nav>
         <RouterLink to="/">Recommended Phones</RouterLink>
-        <!-- <RouterLink to="/phoneprices">Compare Phone Prices</RouterLink> -->
+        <RouterLink to="/tabletprices">Recommended Tablets</RouterLink>
         <RouterLink to="/laptopprices">Recommended Laptops</RouterLink>
         <RouterLink to="/btspeakerprices">Recommended BT-Speakers (Portable)</RouterLink>
         <RouterLink to="/headphoneprices">Recommended HeadPhones</RouterLink>
