@@ -4,6 +4,7 @@ import { RouterLink, RouterView } from 'vue-router'
 import HelloWorld from './components/HelloWorld.vue'
 import IconSun from './components/icons/IconSun.vue'
 import IconMoon from './components/icons/IconMoon.vue'
+import { categoryTitles } from './categories.js'
 
 const isDark = ref(false)
 
@@ -53,13 +54,12 @@ onMounted(() => {
       <HelloWorld msg="स्वागत है :)" />
 
       <nav>
-        <RouterLink to="/">Recommended Phones</RouterLink>
-        <RouterLink to="/tabletprices">Recommended Tablets</RouterLink>
-        <RouterLink to="/laptopprices">Recommended Laptops</RouterLink>
-        <RouterLink to="/btspeakerprices">Recommended BT-Speakers (Portable)</RouterLink>
-        <RouterLink to="/headphoneprices">Recommended HeadPhones</RouterLink>
-        <RouterLink to="/pwbprices">Recommended PowerBanks</RouterLink>
-        <RouterLink to="/watchprices">Recommended SmartWatches</RouterLink>
+        <RouterLink
+          v-for="(title, key) in categoryTitles"
+          :key="key"
+          :to="`/category/${key}`"
+          >{{ title }}</RouterLink
+        >
       </nav>
     </div>
   </header>
