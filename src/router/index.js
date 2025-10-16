@@ -49,6 +49,22 @@ const router = createRouter({
       // this generates a separate chunk (About.[hash].js) for this route
       // which is lazy-loaded when the route is visited.
       component: () => import('../views/LaptopView.vue')
+    },
+    {
+      path: '/watchprices',
+      name: 'watchprices',
+      // route level code-splitting
+      // this generates a separate chunk (About.[hash].js) for this route
+      // which is lazy-loaded when the route is visited.
+      component: () => import('../views/WatchView.vue')
+    },
+    {
+      path: '/pwbprices',
+      name: 'pwbprices',
+      // route level code-splitting
+      // this generates a separate chunk (About.[hash].js) for this route
+      // which is lazy-loaded when the route is visited.
+      component: () => import('../views/PowerBank.vue')
     }
   ]
 })

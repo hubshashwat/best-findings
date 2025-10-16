@@ -16,7 +16,8 @@ import HelloWorld from './components/HelloWorld.vue'
         <RouterLink to="/laptopprices">Recommended Laptops</RouterLink>
         <RouterLink to="/btspeakerprices">Recommended BT-Speakers (Portable)</RouterLink>
         <RouterLink to="/headphoneprices">Recommended HeadPhones</RouterLink>
-        
+        <RouterLink to="/pwbprices">Recommended PowerBanks</RouterLink>
+        <RouterLink to="/watchprices">Recommended SmartWatches</RouterLink>
       </nav>
     </div>
   </header>
