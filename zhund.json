@@ -1,0 +1,310 @@
+{
+  "phones_with_prices": {
+    "10k": {
+      "detailed_heading": "Around 10k",
+      "models": [
+        {
+          "name": "Vivo T4",
+          "link": "https://dl.flipkart.com/s/DaaKx!uuuN",
+          "speciality": [
+            "Durable"
+          ]
+        },
+        {
+          "name": "Samsung M16",
+          "link": "https://amzn.in/d/f3hTZbh",
+          "speciality": [
+            "Non-chinese Brand",
+            "Full HD display"
+          ]
+        }
+      ]
+    },
+    "20k": {
+      "detailed_heading": "Under 20k",
+      "models": [
+        {
+          "name": "iQOO Z10",
+          "link": "https://amzn.in/d/6za8pcv",
+          "speciality": [
+            "Best processor in segment",
+            "Faster Charging"
+          ]
+        },
+        {
+          "name": "Motorola Edge 60 Fusion",
+          "link": "https://dl.flipkart.com/s/DfZoO!uuuN",
+          "speciality": [
+            "Water-proof",
+            "Dust-proof",
+            "Fast Charging",
+            "Good Connectivity"
+          ]
+        }
+      ]
+    },
+    "35k": {
+      "detailed_heading": "Under 35k",
+      "models": [
+        {
+          "name": "Motorola Edge 60 Pro",
+          "link": "https://dl.flipkart.com/s/qcuyJTNNNN",
+          "speciality": [
+            "Water Proof",
+            "Dust Proof"
+          ]
+        },
+        {
+          "name": "iQOO Neo 10",
+          "link": "https://amzn.in/d/bqjrK7O",
+          "speciality": [
+            "Best processor in segment",
+            "Faster charging"
+          ]
+        }
+      ]
+    },
+    "50k": {
+      "detailed_heading": "Around 50k",
+      "models": [
+        {
+          "name": "iQOO 13 5G",
+          "link": "https://amzn.in/d/hlID7D3",
+          "speciality": [
+            "Best processor in the segment",
+            "Faster charging",
+            "Great camera"
+          ]
+        },
+        {
+          "name": "Oneplus 13s",
+          "link": "https://amzn.in/d/fy3jVaP",
+          "speciality": [
+            "Best Processor in the segment", "Compact Form Factor", "Fast Charging", "Great Camera"
+          ]
+        },
+        {
+          "name": "Nothing Phone 3",
+          "link": "https://dl.flipkart.com/s/qa8Ql8NNNN",
+          "speciality": [
+            "Zero Bloatware", "Quirky Design", "Fluctuating price"
+          ]
+        }
+      ]
+    },
+    "max": {
+      "detailed_heading": "Best Phones with Flagship Features",
+      "models": [
+        {
+          "name": "Samsung Galaxy S24 Ultra 5G AI Smartphone",
+          "link": "https://amzn.in/d/eul7QSf",
+          "speciality": [
+            "The best budget flagship except for the fast charging"
+          ]
+        }
+      ]
+    },
+    "max-camera": {
+      "detailed_heading": "Best Camera Phone - Price No Bar",
+      "models": [
+        {
+          "name": "Vivo X200 Pro",
+          "link": "https://amzn.in/d/gCAjaMb",
+          "speciality": [
+            "The best camera smartphone for practical shots, potraits and low-light photos"
+          ]
+        }
+      ]
+    },
+    "foldable": {
+      "detailed_heading": "No compromise foldable phone with large display",
+      "models": [
+        {
+          "name": "Samsung Galaxy Fold 7",
+          "link": "https://amzn.in/d/iRgCjlh",
+          "speciality": [
+            "Best processor, Great display"
+          ]
+        }
+      ]
+    }
+  },
+  "wifi_tablets_with_prices": {
+    "25k": {
+      "detailed_heading": "Wifi Tablets Under 25k",
+      "models": [
+        {
+          "name": "Xiaomi Pad 7",
+          "link": "https://amzn.in/d/4lcFYCv",
+          "speciality": [
+            "Best tab in segment"
+          ]
+        }
+      ]
+    },
+    "35k": {
+      "detailed_heading": "Wifi Tablets Around 35k",
+      "models": [
+        {
+          "name": "Xiaomi Pad 7",
+          "link": "https://amzn.in/d/4lcFYCv",
+          "speciality": [
+            "Best tab in segment"
+          ]
+        }
+      ]
+    },
+    "50k": {
+      "detailed_heading": "Best Wifi Tablet around 50K",
+      "models": [
+        {
+          "name": "Oneplus Pad 3",
+          "link": "https://amzn.in/d/4OLXmJ1",
+          "speciality": [
+            "Best tab in segment"
+          ]
+        }
+      ]
+    },
+    "max": {
+      "detailed_heading": "Best Wifi Tablet",
+      "models": [
+        {
+          "name": "Samsung Galaxy Tab S11 Ultra",
+          "link": "https://amzn.in/d/hSBu1SM",
+          "speciality": [
+            "Best tab in segment"
+          ]
+        }
+      ]
+  }
+},
+"laptops_with_prices": {
+"30k": {
+"detailed_heading": "Around 30k",
+"models":[
+{
+"name": "ASUS Vivobook Go 14",
+"link": "https://amzn.in/d/eROlC55",
+"speciality":["Best budget laptop overall", "Light"],
+"model": "E1404F04FA-NK5541WS"
+}
+]
+},
+"50k": {
+"detailed_heading": "A budget developer machine around 50k",
+"models":[
+{
+"name": "ASUS Vivobook 14",
+"link": "https://amzn.in/d/daTIPnS",
+"speciality":["Great Processor"],
+"model": "M1407KA-LY131WS"
+}
+]
+},
+"80k": {
+"detailed_heading": "A developer machine which doesn't cut down on other factors, around 80k",
+"models":[
+{
+"name": "ASUS Zenbook 14 OLED",
+"link": "https://amzn.in/d/3bTleGD",
+"speciality":["Great display"],
+"model": "UM3406KA-PP240WS"
+}
+]
+}
+},
+"headphones_with_prices": {
+"15k": {
+"detailed_heading": "Around 15k",
+"models":[
+{
+"name": "Sony WH-1000XM4",
+"link": "https://amzn.in/d/0qvcLrp",
+"speciality":["Great Audio Quality for Price","Travel Friendly","Bang for buck"]
+},
+{
+"name": "Bose Quietcomfort Wireless Headphones",
+"link": "https://amzn.in/d/dfWBa5s",
+"speciality":["Perfect for large ears"]
+}
+]
+},
+"25k": {
+"detailed_heading": "Best headphones in 25k",
+"models":[
+{
+"name": "Sony WH-1000XM5",
+"link": "https://amzn.in/d/9GlqQ4Q",
+"speciality":["Best noise cancellation and ambient mode", "Best headphones for calling", "Great sound for price", "Longetivity"]
+},
+{
+"name": "Sennheiser Momentum 4 Wireless",
+"link": "https://amzn.in/d/abuPUaJ",
+"speciality":["Tidbit more comfortable and cheaper than Sony WH-1000XM5"]
+}
+]
+}
+},
+"portable_bluetooth_speakers_with_prices": {
+"3k": {
+"detailed_heading": "Portable bluetooth speakers under 3K",
+"models":[
+{
+"name": "Mi Portable Bluetooth Speaker",
+"link": "https://dl.flipkart.com/s/ZLG4SsuuuN",
+"speciality":["Bang for buck", "Quality sound in price"]
+},
+{
+"name": "Portronics Breeze 5 25W",
+"link": "https://amzn.in/d/fsGg5ZL",
+"speciality":["RGB light show"]
+}
+]
+},
+"18k": {
+"detailed_heading": "Waterproof and dustproof portable bluetooth speakers around 20k",
+"models":[
+{
+"name": "Bang & Olufsen Beosound Explore",
+"link": "https://amzn.in/d/2jCmWRY",
+"speciality":["Best in class quality", "Durability and longetivity"]
+}
+]
+}
+},
+"power_banks": {
+"Under 2k": {
+"detailed_heading": "Value for money power banks",
+"models":[
+{
+"name": "Xiaomi Power Bank 4i 20000mAh",
+"link": "https://amzn.in/d/aO52C54",
+"speciality":["Bang for buck", "Fast charging in good price", "Reliable in long term"]
+},
+{
+"name": "Xiaomi Pocket Power Bank 10000mAh",
+"link": "https://amzn.in/d/5WFSGc9",
+"speciality": ["Durable", "Cute Form Factor"]
+},
+{
+"name": "Xiaomi Ultra Slim Power Bank 4900mAh",
+"link": "https://amzn.in/d/gAwworu",
+"speciality":["Light to hold in hands"]
+}
+]
+}
+},
+"lte_smartwatch": {
+"23k": {
+"detailed_heading": "Value for money LTE smartwatch",
+"models":[
+{
+"name": "Samsung Watch 8",
+"link": "https://amzn.in/d/0gMcefX",
+"speciality":["Bang for buck", "Quality 4G calling"]
+}
+]
+}
+}
+}
