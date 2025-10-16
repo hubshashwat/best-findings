@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Best Findings - Redirecting...</title>
+    <script>
+      // Get the path that was originally requested.
+      const path = window.location.pathname;
+
+      // Store it in sessionStorage.
+      sessionStorage.setItem('redirectPath', path);
+
+      // Redirect to the root of the project.
+      // The base path '/best-findings/' must match your deployment URL.
+      window.location.href = '/best-findings/';
+    </script>
+  </head>
+  <body>
+    If you are not redirected automatically, please <a href="/best-findings/">click here</a>.
+  </body>
+</html>
