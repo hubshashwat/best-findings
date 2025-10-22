@@ -5,5 +5,6 @@ export const categoryTitles = {
   portable_bluetooth_speakers_with_prices: 'Recommended BT-Speakers (Portable)',
   headphones_with_prices: 'Recommended HeadPhones',
   power_banks: 'Recommended PowerBanks',
-  lte_smartwatch: 'Recommended SmartWatches'
+  lte_smartwatch: 'Recommended SmartWatches',
+  regular_best_buys: 'Recommended Products By Zhund'
 }
