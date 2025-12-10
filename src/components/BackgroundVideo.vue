@@ -1,9 +1,21 @@
 <script setup>
+import { ref, onMounted } from 'vue'
+
+const videoRef = ref(null)
+
+onMounted(() => {
+  if (videoRef.value) {
+    // Pause after 6 seconds
+    setTimeout(() => {
+      if (videoRef.value) videoRef.value.pause()
+    }, 6000)
+  }
+})
 </script>
 
 <template>
   <div class="video-background">
-    <video autoplay muted playsinline loop>
+    <video ref="videoRef" autoplay muted playsinline>
       <source src="/loader.mp4" type="video/mp4">
       Your browser does not support the video tag.
     </video>
