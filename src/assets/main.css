@@ -10,14 +10,14 @@
 a,
 .green {
   text-decoration: none;
-  color: hsla(160, 100%, 37%, 1);
+  color: hsla(45, 100%, 50%, 1);
   transition: 0.4s;
   padding: 3px;
 }
 
 @media (hover: hover) {
   a:hover {
-    background-color: hsla(160, 100%, 37%, 0.2);
+    background-color: hsla(45, 100%, 50%, 0.2);
   }
 }
 
@@ -28,8 +28,8 @@ a,
   }
 
   #app {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
+    display: block;
+    /* Reset to be safe, or just remove the grid props */
     padding: 0 2rem;
   }
 }
